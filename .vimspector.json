@@ -1,0 +1,25 @@
+{
+  "configurations": {
+    "Python": {
+      "adapter": "debugpy",
+      "configuration": {
+        "python": "venv/bin/python",
+        "request": "launch",
+        "program": "main.py",
+        "stopOnEntry": false,
+        "cwd": "${workspaceRoot}",
+        "showReturnValue": true,
+        "console": "integratedTerminal",
+        "uncaught": true,
+        "justMyCode": false
+      },
+      "breakpoints": {
+        "exception": {
+          "raised": "N",
+          "uncaught": "",
+          "userUnhandled": ""
+        }
+      }
+    }
+  }
+}
